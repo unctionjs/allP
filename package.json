@@ -1,7 +1,7 @@
 {
-  "name": "@unction/template",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@unction/allp",
+  "version": "1.0.4",
+  "description": "A curryable version of Promise.all",
   "keywords": [
     "unction",
     "functional"
@@ -44,7 +44,5 @@
     "flow-typed": "2.1.3",
     "tap": "10.3.3"
   },
-  "dependencies": {
-    "ramda": "0.24.1"
-  }
+  "dependencies": null
 }

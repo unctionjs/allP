@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import allP from "./"
+import allP from "./index"
 
 test(({same}) => {
   return allP([

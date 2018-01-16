@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> Array<any | Promise<any>> -> Promise<Array<any>>
+> Array<any | Promise<any>> => Promise<Array<any>>
 
 A port of the `Promise.all()` function.
 

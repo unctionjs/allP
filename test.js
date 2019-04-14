@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-return-type */
-import {test} from "tap"
+import {test} from "tap";
 
-import allP from "./index"
+import allP from "./index";
 
 test(({same}) => {
   return allP([
@@ -11,6 +11,7 @@ test(({same}) => {
     .then((resolution) => same(
       resolution, [
         "aa",
-        "bb"
-      ]))
-})
+        "bb",
+      ]
+    ));
+});

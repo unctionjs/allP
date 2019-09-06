@@ -1,5 +1,5 @@
 
-import allP from "./index.ts";
+import allP from "./index";
 
 test(() => {
   return allP([

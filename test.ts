@@ -1,7 +1,7 @@
 
 import allP from "./index";
 
-test(() => {
+test("works", () => {
   return allP([
     Promise.resolve("aa"),
     Promise.resolve("bb"),
